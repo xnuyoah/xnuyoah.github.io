@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:2713/</loc>
+    <lastmod>2024-08-25T14:39:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/categories/</loc>
+    <lastmod>2024-08-25T14:39:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/tags/github-pages/</loc>
+    <lastmod>2024-08-25T14:39:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/tags/hugo/</loc>
+    <lastmod>2024-08-25T14:39:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/post/</loc>
+    <lastmod>2024-08-25T14:39:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/tags/</loc>
+    <lastmod>2024-08-25T14:39:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/p/%E4%BD%BF%E7%94%A8-hugo--github-pages-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2windows-%E7%89%88%E6%9C%AC/</loc>
+    <lastmod>2024-08-25T14:39:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2024-08-25T14:39:01+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:2713/search/</loc>
+  </url>
+</urlset>
