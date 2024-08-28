@@ -338,7 +338,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;set集合&#34;&gt;&lt;code&gt;Set&lt;/code&gt;集合
+&lt;/div&gt;&lt;h2 id=&#34;set-集合&#34;&gt;&lt;code&gt;Set&lt;/code&gt; 集合
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;创建&lt;/li&gt;
 &lt;/ul&gt;
@@ -472,7 +472,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;arrSet&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Set&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;arr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;map集合&#34;&gt;&lt;code&gt;Map&lt;/code&gt;集合
+&lt;/div&gt;&lt;h2 id=&#34;map-集合&#34;&gt;&lt;code&gt;Map&lt;/code&gt; 集合
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;创建&lt;/li&gt;
 &lt;/ul&gt;
@@ -667,7 +667,7 @@
 &lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;for...in&lt;/code&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;for...of&lt;/code&gt; 用于遍历可迭代对象[如数组、&lt;code&gt;Set&lt;/code&gt;、&lt;code&gt;Map&lt;/code&gt;、字符串等]&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;for...of&lt;/code&gt; 用于遍历可迭代对象 [如数组、&lt;code&gt;Set&lt;/code&gt;、&lt;code&gt;Map&lt;/code&gt;、字符串等]&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;for...in&lt;/code&gt; 用于遍历对象的可枚举属性&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
