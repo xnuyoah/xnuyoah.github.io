@@ -15,8 +15,8 @@
         <guid>https://xnuyoah.github.io/p/node-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E5%8F%8A%E6%A8%A1%E5%9D%97%E4%BB%8B%E7%BB%8D/</guid>
         <description>&lt;h2 id=&#34;安装&#34;&gt;安装
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;前往&lt;a class=&#34;link&#34; href=&#34;https://nodejs.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;官网&lt;/a&gt;下载并自定义安装&lt;/li&gt;
+&lt;li&gt;前往 &lt;a class=&#34;link&#34; href=&#34;https://nodejs.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt; 下载并自定义安装&lt;/li&gt;
 &lt;li&gt;检查是否安装成功&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -50,7 +50,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; registry https://registry.npmmirror.com/
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;创建node应用程序生成packagejson文件&#34;&gt;创建&lt;code&gt;Node&lt;/code&gt;应用程序生成&lt;code&gt;package.json&lt;/code&gt;文件
+&lt;/div&gt;&lt;h2 id=&#34;创建-node-应用程序生成-packagejson-文件&#34;&gt;创建 &lt;code&gt;Node&lt;/code&gt; 应用程序生成 &lt;code&gt;package.json&lt;/code&gt; 文件
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -59,9 +59,9 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm init
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;遇到报错无法加载文件禁止运行脚本&#34;&gt;遇到报错&lt;code&gt;无法加载文件&lt;/code&gt;，&lt;code&gt;禁止运行脚本&lt;/code&gt;
+&lt;/div&gt;&lt;h3 id=&#34;遇到报错-无法加载文件禁止运行脚本&#34;&gt;遇到报错 &lt;code&gt;无法加载文件&lt;/code&gt;，&lt;code&gt;禁止运行脚本&lt;/code&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;解决方法 - 打开&lt;code&gt;Powershell&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;解决方法 - 打开 &lt;code&gt;Powershell&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -104,8 +104,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;内置模块&#34;&gt;内置模块
-&lt;/h2&gt;&lt;h3 id=&#34;url模块&#34;&gt;&lt;code&gt;url&lt;/code&gt;模块
-&lt;/h3&gt;&lt;p&gt;用于解析&lt;code&gt;url&lt;/code&gt;、格式化&lt;code&gt;url&lt;/code&gt;，以及将&lt;code&gt;url&lt;/code&gt;各部分相互转换的函数&lt;/p&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;url-模块&#34;&gt;&lt;code&gt;url&lt;/code&gt; 模块
+&lt;/h3&gt;&lt;p&gt;用于解析 &lt;code&gt;url&lt;/code&gt;、格式化 &lt;code&gt;url&lt;/code&gt;，以及将 &lt;code&gt;url&lt;/code&gt; 各部分相互转换的函数&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -132,10 +132,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;searchParams&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// &amp;#39;xyz&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;path模块&#34;&gt;&lt;code&gt;path&lt;/code&gt;模块
+&lt;/div&gt;&lt;h3 id=&#34;path-模块&#34;&gt;&lt;code&gt;path&lt;/code&gt; 模块
 &lt;/h3&gt;&lt;p&gt;用于处理文件和目录路径&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;导入&lt;code&gt;path&lt;/code&gt;模块&lt;/li&gt;
+&lt;li&gt;导入 &lt;code&gt;path&lt;/code&gt; 模块&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -146,7 +146,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;返回文件名字&lt;code&gt;path.basename()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;返回文件名字 &lt;code&gt;path.basename()&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -163,7 +163,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;返回路径目录&lt;code&gt;path.dirname()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;返回路径目录 &lt;code&gt;path.dirname()&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -178,7 +178,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;返回路径扩展名&lt;code&gt;path.extname()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;返回路径扩展名 &lt;code&gt;path.extname()&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -193,7 +193,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;路径拼接&lt;code&gt;path.join()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;路径拼接 &lt;code&gt;path.join()&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -214,7 +214,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;返回绝对路径&lt;code&gt;path.resolve()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;返回绝对路径 &lt;code&gt;path.resolve()&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;如果路径片段前有 &lt;code&gt;/&lt;/code&gt;，解析时会以此为根路径。&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -234,7 +234,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;解析路径&lt;code&gt;path.parse()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;解析路径 &lt;code&gt;path.parse()&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -267,7 +267,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;输出当前系统分隔符&lt;code&gt;path.sep&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;输出当前系统分隔符 &lt;code&gt;path.sep&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -277,7 +277,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;sep&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Linux 输出: &amp;#39;/&amp;#39;, Windows 输出: &amp;#39;\&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;fs模块&#34;&gt;&lt;code&gt;fs&lt;/code&gt;模块
+&lt;/div&gt;&lt;h3 id=&#34;fs-模块&#34;&gt;&lt;code&gt;fs&lt;/code&gt; 模块
 &lt;/h3&gt;&lt;p&gt;用于文件的创建、读取、写入、删除以及其他文件相关的操作&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -565,8 +565,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//deleteDir(&amp;#34;demo&amp;#34;)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;stream模块&#34;&gt;&lt;code&gt;stream&lt;/code&gt;模块
-&lt;/h3&gt;&lt;p&gt;&lt;code&gt;stream&lt;/code&gt;流是一种抽象的数据处理方式，适合处理大量数据或需要逐步处理数据的场景，如文件读写、网络请求、音视频处理等&lt;/p&gt;
+&lt;/div&gt;&lt;h3 id=&#34;stream-模块&#34;&gt;&lt;code&gt;stream&lt;/code&gt; 模块
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;stream&lt;/code&gt; 流是一种抽象的数据处理方式，适合处理大量数据或需要逐步处理数据的场景，如文件读写、网络请求、音视频处理等&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
@@ -959,7 +959,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//deleteDir(&amp;#34;demo&amp;#34;)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;os模块&#34;&gt;&lt;code&gt;os&lt;/code&gt;模块
+&lt;/div&gt;&lt;h3 id=&#34;os-模块&#34;&gt;&lt;code&gt;os&lt;/code&gt; 模块
 &lt;/h3&gt;&lt;p&gt;与操作系统交互&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -995,7 +995,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;当前用户的信息:&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;userInfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;());&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;自动重启工具nodemon&#34;&gt;自动重启工具&lt;code&gt;nodemon&lt;/code&gt;
+&lt;/div&gt;&lt;h2 id=&#34;自动重启工具-nodemon&#34;&gt;自动重启工具 &lt;code&gt;nodemon&lt;/code&gt;
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;安装&lt;/li&gt;
 &lt;/ul&gt;
@@ -1019,7 +1019,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;package.json&lt;/code&gt;配置&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;package.json&lt;/code&gt; 配置&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

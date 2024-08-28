@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="安装 前往官网下载并自定义安装 检查是否安装成功 1 2 3 4 node -v npm -v # 正确输出版本号即可 查看当前镜像源并修改镜像源 1 2 3 4 node get registry # 修改为阿里源 npm config set">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="安装 前往 官网 下载并自定义安装 检查是否安装成功 1 2 3 4 node -v npm -v # 正确输出版本号即可 查看当前镜像源并修改镜像源 1 2 3 4 node get registry # 修改为阿里源 npm config set">
 <title>Node 安装、使用及模块介绍</title>
 
 <link rel='canonical' href='https://xnuyoah.github.io/p/node-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E5%8F%8A%E6%A8%A1%E5%9D%97%E4%BB%8B%E7%BB%8D/'>
 
 <link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Node 安装、使用及模块介绍">
-<meta property='og:description' content="安装 前往官网下载并自定义安装 检查是否安装成功 1 2 3 4 node -v npm -v # 正确输出版本号即可 查看当前镜像源并修改镜像源 1 2 3 4 node get registry # 修改为阿里源 npm config set">
+<meta property='og:description' content="安装 前往 官网 下载并自定义安装 检查是否安装成功 1 2 3 4 node -v npm -v # 正确输出版本号即可 查看当前镜像源并修改镜像源 1 2 3 4 node get registry # 修改为阿里源 npm config set">
 <meta property='og:url' content='https://xnuyoah.github.io/p/node-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E5%8F%8A%E6%A8%A1%E5%9D%97%E4%BB%8B%E7%BB%8D/'>
 <meta property='og:site_name' content='xeliauk&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Node' /><meta property='article:tag' content='Javascript' /><meta property='article:tag' content='npm' /><meta property='article:published_time' content='2024-08-28T22:34:54&#43;08:00'/><meta property='article:modified_time' content='2024-08-28T22:34:54&#43;08:00'/>
 <meta name="twitter:title" content="Node 安装、使用及模块介绍">
-<meta name="twitter:description" content="安装 前往官网下载并自定义安装 检查是否安装成功 1 2 3 4 node -v npm -v # 正确输出版本号即可 查看当前镜像源并修改镜像源 1 2 3 4 node get registry # 修改为阿里源 npm config set">
+<meta name="twitter:description" content="安装 前往 官网 下载并自定义安装 检查是否安装成功 1 2 3 4 node -v npm -v # 正确输出版本号即可 查看当前镜像源并修改镜像源 1 2 3 4 node get registry # 修改为阿里源 npm config set">
     <link rel="shortcut icon" href="/favicon.ico" />
 
   
@@ -211,21 +211,21 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#安装">安装</a></li>
-    <li><a href="#创建node应用程序生成packagejson文件">创建<code>Node</code>应用程序生成<code>package.json</code>文件</a>
+    <li><a href="#创建-node-应用程序生成-packagejson-文件">创建 <code>Node</code> 应用程序生成 <code>package.json</code> 文件</a>
       <ol>
-        <li><a href="#遇到报错无法加载文件禁止运行脚本">遇到报错<code>无法加载文件</code>，<code>禁止运行脚本</code></a></li>
+        <li><a href="#遇到报错-无法加载文件禁止运行脚本">遇到报错 <code>无法加载文件</code>，<code>禁止运行脚本</code></a></li>
       </ol>
     </li>
     <li><a href="#内置模块">内置模块</a>
       <ol>
-        <li><a href="#url模块"><code>url</code>模块</a></li>
-        <li><a href="#path模块"><code>path</code>模块</a></li>
-        <li><a href="#fs模块"><code>fs</code>模块</a></li>
-        <li><a href="#stream模块"><code>stream</code>模块</a></li>
-        <li><a href="#os模块"><code>os</code>模块</a></li>
+        <li><a href="#url-模块"><code>url</code> 模块</a></li>
+        <li><a href="#path-模块"><code>path</code> 模块</a></li>
+        <li><a href="#fs-模块"><code>fs</code> 模块</a></li>
+        <li><a href="#stream-模块"><code>stream</code> 模块</a></li>
+        <li><a href="#os-模块"><code>os</code> 模块</a></li>
       </ol>
     </li>
-    <li><a href="#自动重启工具nodemon">自动重启工具<code>nodemon</code></a></li>
+    <li><a href="#自动重启工具-nodemon">自动重启工具 <code>nodemon</code></a></li>
     <li><a href="#参考文章">参考文章</a></li>
   </ol>
 </nav>
@@ -308,8 +308,8 @@
     
     <h2 id="安装">安装
 </h2><ul>
-<li>前往<a class="link" href="https://nodejs.org"  target="_blank" rel="noopener"
-    >官网</a>下载并自定义安装</li>
+<li>前往 <a class="link" href="https://nodejs.org"  target="_blank" rel="noopener"
+    >官网</a> 下载并自定义安装</li>
 <li>检查是否安装成功</li>
 </ul>
 <div class="highlight"><div class="chroma">
@@ -343,7 +343,7 @@
 </span></span><span class="line"><span class="cl">npm config <span class="nb">set</span> registry https://registry.npmmirror.com/
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="创建node应用程序生成packagejson文件">创建<code>Node</code>应用程序生成<code>package.json</code>文件
+</div><h2 id="创建-node-应用程序生成-packagejson-文件">创建 <code>Node</code> 应用程序生成 <code>package.json</code> 文件
 </h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -352,9 +352,9 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm init
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="遇到报错无法加载文件禁止运行脚本">遇到报错<code>无法加载文件</code>，<code>禁止运行脚本</code>
+</div><h3 id="遇到报错-无法加载文件禁止运行脚本">遇到报错 <code>无法加载文件</code>，<code>禁止运行脚本</code>
 </h3><blockquote>
-<p>解决方法 - 打开<code>Powershell</code></p>
+<p>解决方法 - 打开 <code>Powershell</code></p>
 </blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -397,8 +397,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="内置模块">内置模块
-</h2><h3 id="url模块"><code>url</code>模块
-</h3><p>用于解析<code>url</code>、格式化<code>url</code>，以及将<code>url</code>各部分相互转换的函数</p>
+</h2><h3 id="url-模块"><code>url</code> 模块
+</h3><p>用于解析 <code>url</code>、格式化 <code>url</code>，以及将 <code>url</code> 各部分相互转换的函数</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -425,10 +425,10 @@
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">searchParams</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&#34;name&#34;</span><span class="p">));</span> <span class="c1">// &#39;xyz&#39;
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="path模块"><code>path</code>模块
+</div><h3 id="path-模块"><code>path</code> 模块
 </h3><p>用于处理文件和目录路径</p>
 <ul>
-<li>导入<code>path</code>模块</li>
+<li>导入 <code>path</code> 模块</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -439,7 +439,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
-<li>返回文件名字<code>path.basename()</code></li>
+<li>返回文件名字 <code>path.basename()</code></li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -456,7 +456,7 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
-<li>返回路径目录<code>path.dirname()</code></li>
+<li>返回路径目录 <code>path.dirname()</code></li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -471,7 +471,7 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
-<li>返回路径扩展名<code>path.extname()</code></li>
+<li>返回路径扩展名 <code>path.extname()</code></li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -486,7 +486,7 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
-<li>路径拼接<code>path.join()</code></li>
+<li>路径拼接 <code>path.join()</code></li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -507,7 +507,7 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
-<li>返回绝对路径<code>path.resolve()</code></li>
+<li>返回绝对路径 <code>path.resolve()</code></li>
 </ul>
 <p><strong>如果路径片段前有 <code>/</code>，解析时会以此为根路径。</strong></p>
 <div class="highlight"><div class="chroma">
@@ -527,7 +527,7 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
-<li>解析路径<code>path.parse()</code></li>
+<li>解析路径 <code>path.parse()</code></li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -560,7 +560,7 @@
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
-<li>输出当前系统分隔符<code>path.sep</code></li>
+<li>输出当前系统分隔符 <code>path.sep</code></li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -570,7 +570,7 @@
 <pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nx">sep</span><span class="p">);</span> <span class="c1">// Linux 输出: &#39;/&#39;, Windows 输出: &#39;\&#39;
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="fs模块"><code>fs</code>模块
+</div><h3 id="fs-模块"><code>fs</code> 模块
 </h3><p>用于文件的创建、读取、写入、删除以及其他文件相关的操作</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -858,8 +858,8 @@
 </span></span><span class="line"><span class="cl"><span class="c1">//deleteDir(&#34;demo&#34;)
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="stream模块"><code>stream</code>模块
-</h3><p><code>stream</code>流是一种抽象的数据处理方式，适合处理大量数据或需要逐步处理数据的场景，如文件读写、网络请求、音视频处理等</p>
+</div><h3 id="stream-模块"><code>stream</code> 模块
+</h3><p><code>stream</code> 流是一种抽象的数据处理方式，适合处理大量数据或需要逐步处理数据的场景，如文件读写、网络请求、音视频处理等</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">  1
@@ -1252,7 +1252,7 @@
 </span></span><span class="line"><span class="cl"><span class="c1">//deleteDir(&#34;demo&#34;)
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="os模块"><code>os</code>模块
+</div><h3 id="os-模块"><code>os</code> 模块
 </h3><p>与操作系统交互</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1288,7 +1288,7 @@
 </span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;当前用户的信息:&#34;</span><span class="p">,</span> <span class="nx">os</span><span class="p">.</span><span class="nx">userInfo</span><span class="p">());</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="自动重启工具nodemon">自动重启工具<code>nodemon</code>
+</div><h2 id="自动重启工具-nodemon">自动重启工具 <code>nodemon</code>
 </h2><ul>
 <li>安装</li>
 </ul>
@@ -1312,7 +1312,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
-<li><code>package.json</code>配置</li>
+<li><code>package.json</code> 配置</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
